@@ -1,0 +1,10 @@
+name = "jcomp"
+
+[install]
+completion = true
+quiet = false
+optimize = 2
+compile="min"
+
+[application]
+incremental=true
