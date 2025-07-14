@@ -1,7 +1,7 @@
 name = "jcompWrapper"
 uuid = "fe8fdbfa-d1a7-4498-9424-af28e3f82c24"
-authors = ["xoth42 <xoth42@protonmail.com>"]
 version = "0.1.0"
+authors = ["xoth42 <xoth42@protonmail.com>"]
 
 [deps]
 Comonicon = "863f3e99-da2a-4334-8734-de3dacbe5542"
@@ -11,9 +11,12 @@ PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 ShareAdd = "27c01619-3163-4fe3-a204-36d38c32eb7d"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+TestItems = "1c621080-faea-4a02-84b6-bbd5e436b8fe"
 
 [compat]
 Pkg = "1.11.0"
+Test = "1.11.0"
+TestItems = "1.0.0"
 julia = "1.11.5"
 
 [targets]

@@ -1,7 +1,16 @@
-using jcomp
+using jcompWrapper
 using Test
+using TestItems
 
-@testset "jcomp.jl" begin
-    # Write your tests here.
-    
-end
+# @testmodule init begin
+#     ENV["JCOMP_ENV"] = "../"
+# end
+
+# @testitem "jcomp.jl" begin
+#     @test false
+# end
+
+# @testitem "basic run" setup=[init] begin
+#     jcompWrapper.jcomp()
+
+# end
